@@ -327,6 +327,7 @@ body{
     grid-area: 2/4/3/5;
     margin-left: 66% ;
     margin-top:11%;
+    padding: 1px;
 }
 .cone button{
     height: 35px;
