@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Gobold';
+    src: url(../fonts/Gobold.otf);
+}
+
+@keyframes grow {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        width: 115px;
+        height: 130px;
+        background: linear-gradient(90deg, #00d2ff, #006dff) no-repeat;
+    }
+
+
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #002c5f, #000824);
+    background-repeat: no-repeat;
+
+
+}
+
+.bge {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+
+
+}
+
+.bg {
+    height: 100%;
+    position: fixed;
+
+}
+
+.bg h1 {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.205);
+    margin: 0;
+    font-size: 600pt;
+    box-sizing: border-box;
+    font-family: 'Gobold', sans-serif;
+}
+
+.bg1 {
+    top: -350px;
+    left: -37px;
+}
+
+.bg2 {
+    left: -66px;
+    top: 350px;
+}
+
+.header {
+
+    height: 74px;
+    width: 1380px;
+    background-color: #0f1731a2;
+    margin-left: 62px;
+    margin-top: 0px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.text h1 {
+    margin-top: 18.4px;
+}
+
+.text {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    margin-left: 180px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.text p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16pt;
+    border-bottom: rgb(55, 248, 248) solid 3 px;
+    text-decoration: underline rgb(55, 248, 248);
+}
+
+.pic {
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14pt;
+}
+
+.item {
+    padding: 15px;
+    margin-left: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item div:last-child {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.item a:link, .item a:visited, .item a:active {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.img {
+    padding: 7px;
+    margin-top: 1px;
+    vertical-align: middle;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.circles {
+    border: solid transparent 2.5px;
+    border-image: linear-gradient(#00d2ff, transparent);
+    border-image-slice: 1;
+    width: 85px;
+    margin-left: 12px;
+
+
+
+}
+
+.circles p {
+    height: 35px;
+    width: 35px;
+    background-color: azure;
+    border-radius: 50%;
+    cursor: pointer;
+    background-clip: content-box;
+    padding: 4px;
+    margin: auto;
+
+
+
+}
+
+.circles p:hover {
+    border: azure solid 2px;
+}
+
+.colours {
+    margin-top: 170px;
+    margin-left: 55px;
+}
+
+.colours h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.colours h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 1px;
+    margin-right: -17px;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+#b1 {
+    background-color: #008aff;
+}
+
+#b3 {
+    background-color: #00fff6;
+}
+
+#b4 {
+    background-color: #ff0000;
+}
+
+#b5 {
+    background-color: #ffea00;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 2fr 20px 4fr;
+    grid-template-rows: 1fr 3fr;
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.prImage p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 12pt;
+    text-decoration: underline rgb(55, 248, 248);
+    padding: 0;
+}
+
+.head {
+    height: 125px;
+    width: 250px;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 0;
+    margin: 0%;
+}
+
+.whText {
+
+    margin-top: 42px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
+}
+
+.whText h1 {
+    letter-spacing: -6px;
+    font-size: 11em;
+    margin: 0;
+
+    font-family: 'Gobold', sans-serif;
+    color: #ffffff;
+    padding: 0;
+    line-height: 100px
+}
+
+.whText h2 {
+    letter-spacing: -5px;
+    font-size: 9em;
+    margin: 0;
+    margin-top: 35px;
+    font-family: 'Gobold', sans-serif;
+    color: #ffffff;
+}
+
+.Headphones {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    z-index: 2;
+
+}
+
+.shadow {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+
+.HeadphonesChoise {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.HeadphonesChoise div {
+    width: 80px;
+    height: 95px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: gray solid 2px;
+    vertical-align: middle;
+}
+
+.HeadphonesChoise img {
+    height: 100%;
+
+}
+
+.grow {
+    animation: grow 1s linear;
+    animation-fill-mode: forwards;
+
+}
+
+.footer {
+    margin: 0;
+}
+
+.state {
+    width: 1100px;
+    height: 150px;
+    background-color: black;
+}
